@@ -1,5 +1,5 @@
 const request = require('../')
-const xxx = request('http://xxx')
+const xxx = new request('http://localhost:3000')
     
 /**
  * .get() 调用 GET 请求
